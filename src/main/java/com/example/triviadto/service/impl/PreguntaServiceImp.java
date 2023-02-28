@@ -19,11 +19,11 @@ import java.util.List;
 public class PreguntaServiceImp implements PreguntaService {
 
 
-    PreguntaRepository preguntaRepository;
+//    PreguntaRepository preguntaRepository;
 
-    public PreguntaServiceImp(PreguntaRepository preguntaRepository) {
-        this.preguntaRepository = preguntaRepository;
-    }
+//    public PreguntaServiceImp(PreguntaRepository preguntaRepository) {
+//        this.preguntaRepository = preguntaRepository;
+//    }
 
     private static final String filePath = "trivia.json";
 
@@ -103,12 +103,12 @@ public class PreguntaServiceImp implements PreguntaService {
         return preguntasUsuario;
     }
 
-    @Override
-    public ArrayList<Pregunta> settearPreguntasParaUsuarioNivelNulo() {
-
-        return (ArrayList<Pregunta>) preguntaRepository.findAll();
-
-    }
+//    @Override
+//    public ArrayList<Pregunta> settearPreguntasParaUsuarioNivelNulo() {
+//
+//        return (ArrayList<Pregunta>) preguntaRepository.findAll();
+//
+//    }
 
     public ArrayList<Pregunta> obtenerPreguntasPorCategoria(ArrayList<Pregunta> preguntasUsuario, Categoria categoria){
         ArrayList<Pregunta> preguntasCategoria = new ArrayList<>();

@@ -11,10 +11,10 @@ public interface UsuarioService {
 
     int obtenerNivelPorEdad(Usuario usuario);
 
-    ResponseEntity<UsuarioResponseDto> verUsuario(Long id);
+//    ResponseEntity<UsuarioResponseDto> verUsuario(Long id);
 
     Usuario crearUsuario(UsuarioRequestDto usuarioRequestDto);
 
-    List<Usuario> listarUsuarios();
+//    List<Usuario> listarUsuarios();
 
 }

@@ -32,12 +32,12 @@ public class TriviaController {
      * http://localhost:8080/api/juego/usuarios
      * @return List<Usuario>
      */
-    @GetMapping("/usuarios")
-    @Operation(description = "Listar todos los usuarios de la base de datos")
-    public List<Usuario> listarTodasLosUsuarios(){
-        return usuarioService.listarUsuarios();
-
-    }
+//    @GetMapping("/usuarios")
+//    @Operation(description = "Listar todos los usuarios de la base de datos")
+//    public List<Usuario> listarTodasLosUsuarios(){
+//        return usuarioService.listarUsuarios();
+//
+//    }
 
     /**
      * Buscar un usuario por su id
@@ -45,11 +45,11 @@ public class TriviaController {
      * @param id
      * @return Usuario
      */
-    @GetMapping("/usuarios/{id}")
-    @Operation(description = "Buscar un usuario por su id")
-    public ResponseEntity<UsuarioResponseDto> verUsuario(@PathVariable("id") Long id){
-        return usuarioService.verUsuario(id);
-    }
+//    @GetMapping("/usuarios/{id}")
+//    @Operation(description = "Buscar un usuario por su id")
+//    public ResponseEntity<UsuarioResponseDto> verUsuario(@PathVariable("id") Long id){
+//        return usuarioService.verUsuario(id);
+//    }
 
 
     /**

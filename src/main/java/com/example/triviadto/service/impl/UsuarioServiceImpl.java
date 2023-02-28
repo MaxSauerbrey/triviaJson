@@ -17,8 +17,8 @@ import java.util.List;
 @Service
 public class UsuarioServiceImpl implements UsuarioService {
 
-    @Autowired
-    UsuarioRepository usuarioRepository;
+//    @Autowired
+//    UsuarioRepository usuarioRepository;
 
     @Autowired
     private ModelMapperInterface modelMapperInterface;
@@ -62,11 +62,11 @@ public class UsuarioServiceImpl implements UsuarioService {
         }
      */
 
-    @Override
-    public ResponseEntity<UsuarioResponseDto> verUsuario(Long id) {
-        Usuario usuario = usuarioRepository.traer(id);
-        return ResponseEntity.status(HttpStatus.OK).body(modelMapperInterface.usuarioAUsuarioResDto(usuario));
-    }
+//    @Override
+//    public ResponseEntity<UsuarioResponseDto> verUsuario(Long id) {
+//        Usuario usuario = usuarioRepository.traer(id);
+//        return ResponseEntity.status(HttpStatus.OK).body(modelMapperInterface.usuarioAUsuarioResDto(usuario));
+//    }
 
 
     @Override
@@ -78,8 +78,8 @@ public class UsuarioServiceImpl implements UsuarioService {
         return usuario;
     }
 
-    @Override
-    public List<Usuario> listarUsuarios(){
-        return usuarioRepository.findAll();
-    }
+//    @Override
+//    public List<Usuario> listarUsuarios(){
+//        return usuarioRepository.findAll();
+//    }
 }

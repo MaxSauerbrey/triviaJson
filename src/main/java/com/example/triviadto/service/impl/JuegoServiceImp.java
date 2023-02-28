@@ -107,7 +107,7 @@ public class JuegoServiceImp implements JuegoService {
 
         int nivel = usuarioService.obtenerNivelPorEdad(juego.getUsuario());
         if(nivel == 0){
-            juego.setPreguntas(preguntaService.settearPreguntasParaUsuarioNivelNulo());
+//            juego.setPreguntas(preguntaService.settearPreguntasParaUsuarioNivelNulo());
         }else{
             juego.setPreguntas(preguntaService.settearPreguntasParaUsuario(nivel));
         }
