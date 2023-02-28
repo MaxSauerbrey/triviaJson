@@ -5,7 +5,7 @@ import com.example.triviadto.dto.Mapper.ModelMapperInterface;
 import com.example.triviadto.dto.requestDto.UsuarioRequestDto;
 import com.example.triviadto.dto.responseDto.UsuarioResponseDto;
 import com.example.triviadto.entity.Usuario;
-import com.example.triviadto.repository.UsuarioRepository;
+//import com.example.triviadto.repository.UsuarioRepository;
 import com.example.triviadto.service.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

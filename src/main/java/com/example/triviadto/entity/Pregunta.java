@@ -1,23 +1,23 @@
 package com.example.triviadto.entity;
 
 import com.example.triviadto.utility.Categoria;
-import jakarta.persistence.*;
+//import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-@Entity
-@Table(name="Pregunta")
+//@Entity
+//@Table(name="Pregunta")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class Pregunta {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private Categoria categoria;
     private int nivel; //por edad del usuario

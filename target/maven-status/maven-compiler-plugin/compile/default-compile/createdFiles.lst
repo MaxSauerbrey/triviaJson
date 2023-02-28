@@ -12,8 +12,6 @@ com\example\triviadto\dto\requestDto\PreguntaRequestDto.class
 com\example\triviadto\utility\Categoria.class
 com\example\triviadto\dto\responseDto\UsuarioResponseDto.class
 com\example\triviadto\dto\requestDto\UsuarioRequestDto.class
-com\example\triviadto\repository\PreguntaRepository.class
-com\example\triviadto\repository\UsuarioRepository.class
 com\example\triviadto\service\service\JuegoService.class
 com\example\triviadto\service\service\PreguntaService.class
 com\example\triviadto\dto\Mapper\ModelMapperImpl.class

@@ -2,7 +2,7 @@ package com.example.triviadto.service.impl;
 
 
 import com.example.triviadto.entity.Pregunta;
-import com.example.triviadto.repository.PreguntaRepository;
+//import com.example.triviadto.repository.PreguntaRepository;
 import com.example.triviadto.service.service.PreguntaService;
 import com.example.triviadto.utility.Categoria;
 import org.json.simple.JSONArray;

@@ -4,7 +4,7 @@ import com.example.triviadto.dto.responseDto.PreguntaResponseDto;
 import com.example.triviadto.entity.Juego;
 import com.example.triviadto.entity.Pregunta;
 import com.example.triviadto.entity.Usuario;
-import com.example.triviadto.repository.PreguntaRepository;
+//import com.example.triviadto.repository.PreguntaRepository;
 import com.example.triviadto.service.impl.JuegoServiceImp;
 import com.example.triviadto.service.impl.PreguntaServiceImp;
 import com.example.triviadto.service.impl.UsuarioServiceImpl;

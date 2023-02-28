@@ -1,7 +1,6 @@
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\service\service\PreguntaService.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\service\service\UsuarioService.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\entity\Usuario.java
-C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\repository\UsuarioRepository.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\controller\TriviaController.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\TriviaDtoApplication.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\dto\responseDto\UsuarioResponseDto.java
@@ -9,7 +8,6 @@ C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\dto
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\service\impl\PreguntaServiceImp.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\service\service\JuegoService.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\dto\Mapper\ModelMapperInterface.java
-C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\repository\PreguntaRepository.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\service\impl\JuegoServiceImp.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\dto\requestDto\UsuarioRequestDto.java
 C:\Users\USUARIO\Desktop\TriviaJson-main\src\main\java\com\example\triviadto\entity\Juego.java
