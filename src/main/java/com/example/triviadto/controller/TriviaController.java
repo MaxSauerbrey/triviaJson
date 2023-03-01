@@ -65,6 +65,7 @@ public String prueba() {
     @PostMapping("/registro")
     @Operation(description = "Recibir un usuario y guardarlo en la base de datos")
     public Usuario crearUsuario(@RequestBody UsuarioRequestDto usuarioRequestDto){
+        System.out.println(usuarioRequestDto.getEdad());
         return juegoService.guardarUsuarioJuego(usuarioRequestDto);
     }
 
@@ -72,12 +73,12 @@ public String prueba() {
     /**
      * Envia las cinco preguntas del juego
      * http://localhost:8080/api/juego/preguntas
-     * @param modelo
+     * @param
      * @return ArrayList<Pregunta>
      */
     @GetMapping("/preguntas")
     @Operation(description = "Enviar las preguntas del juego")
-    public ArrayList<PreguntaResponseDto> enviarPreguntas(Model modelo){
+    public ArrayList<PreguntaResponseDto> enviarPreguntas(){
         return juegoService.listarPreguntas();
     }
 }
