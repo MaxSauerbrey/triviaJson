@@ -40,7 +40,6 @@ public class TriviaDtoApplication {
     public static void main(String[] args)  {
         SpringApplication.run(TriviaDtoApplication.class, args);
 
-
         }
 
 

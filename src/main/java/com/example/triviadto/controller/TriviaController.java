@@ -26,6 +26,10 @@ public class TriviaController {
     @Autowired
     private JuegoService juegoService;
 
+@GetMapping("/prueba")
+public String prueba() {
+    return "Hola esto es una prueba";
+}
 
     /**
      * Devuelve todos los usuarios de la base de datos
